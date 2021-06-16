@@ -22,5 +22,5 @@ jobs:
       - name: upload artifact
         uses: actions/upload-artifact@v2
         with:
-          name: go-north.jar
+          name: qr-reader.jar
           path: target/*.jar
